@@ -11,17 +11,19 @@ h1 {
     margin-bottom: 50px;
 }
 
-div.stylish {
+div.style {
+    position: relative;
     background-color: #ededed;
     border: 1px solid black;
     width: 90%;
-    height: 300px;
+    height: 200px;
     margin-right: auto;
     margin-left: auto;
 }
 p.menu-type {
     border: 1px solid black;
-    float: right;
+    position: absolute;
+    right: 0%;
     width: 25%;
     height: 50px;
     text-align: center;
@@ -32,8 +34,10 @@ p.menu-type {
     line-height: 50px;
 }
 p.text {
+    position: absolute;
+    top: 58px;
     clear: both;
-    padding: 24px 16px;
+    padding: 16px;
     font-weight: 200;
     line-height: 24px;
 }
